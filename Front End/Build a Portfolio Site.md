@@ -37,7 +37,12 @@ You'll accomplish this while conforming to a [style guide](http://udacity.github
 # Project Details
 
 ## How do I Complete this Project?
-This project is connected to the [Intro to HTML and CSS course](https://www.udacity.com/course/viewer#!/c-ud304-nd) but depending on your background knowledge of HTML and CSS you may not need to take the entire course to complete this project. Here's what you should do:
+This project is connected to the [Intro to HTML and CSS course](https://www.udacity.com/course/viewer#!/c-ud304-nd) but depending on your background knowledge of HTML and CSS you may not need to take the entire course to complete this project. 
+
+Be sure to follow the [Project Rubric](https://review.udacity.com/?_ga=1.163963583.12280332.1465333852#!/projects/2736698543/rubric) closely when designing your page. For example, note that [HTML5 structural (semantic) elements](https://www.w3.org/wiki/HTML_structural_elements#Enter_HTML5_structural_elements) must be used to organize content.
+
+
+Here's what you should do:
 
 1. Download the [design mockup file](https://storage.googleapis.com/supplemental_media/udacityu/2655898586/p1.pdf). Note that the color swatches on the left are for color reference only. They are not part of the design.
 2. Identify the various boxes you will need to build in order to recreate this design.

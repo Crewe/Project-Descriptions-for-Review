@@ -6,7 +6,7 @@ This document provides guidelines to reviewers on how to give feedback on DevOps
 
 #### Learning Outcome
 
-The desired learning outcome of DevOps P0 is to get students into the right mindframe for a DevOps Nanodegree program. DevOps isn't about tools; it's about the business processes that those tools serve. 
+The desired learning outcome of DevOps P0 is to get students into the right mindframe for a DevOps Nanodegree program. DevOps isn't about tools; it's about the business processes that those tools serve. This is a [formative assessment](http://www.scholastic.com/teachers/article/what-are-formative-assessments-and-why-should-we-use-them), i.e., one that serves to guide the student and show what needs to be learned, rather than a summative one that serves to evaluate the student's learning. 
 
 #### Implications of Learning Outcome for Review
 

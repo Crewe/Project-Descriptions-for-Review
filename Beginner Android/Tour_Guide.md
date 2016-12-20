@@ -5,7 +5,7 @@ The goal is to create a tour guide app which presents relevant information to a 
 
 If you are subscribed to the paid Nanodegree program, coaches will be available in the Coaches Lounge to help guide you through the final project. You will receive feedback after submitting your project and a verified certificate after successfully finishing this project.
 
-If you are enrolled in the free version of this course, the project rubric and all of the project details are available to you.
+If you are enrolled in the free version of this course, the [project rubric](https://review.udacity.com/#!/rubrics/161/view) and all of the project details are available to you.
 Either way, we would love to see a description and link to your app on the discussion forum.
 
 # Why this project?
@@ -15,6 +15,6 @@ This project is about combining various ideas and skills we’ve been practicing
 * Planning your app design and navigation before coding.
 * Selecting proper data structures to store lists of information.
 * Building layouts to display those lists of data.
-* Navigating between those lists using intents and multiple Activities or a ViewPager[d].
+* Navigating between those lists using either a ViewPager or intents and multiple Activities.
 * Creating your own custom classes.
 * Properly handling images or audio (if applicable).

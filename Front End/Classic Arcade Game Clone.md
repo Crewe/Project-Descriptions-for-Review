@@ -16,6 +16,7 @@ Please refer to the reviewer tips column in the [rubric](https://review.udacity.
 7. Identify the various classes you will need to write.
 8. Identify and code the properties each class must have to accomplish its tasks.
 9. Write the functions that provide functionality to each of your class instances.
+10. Review the rubric below to make sure your project is up to spec. For example, make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
 
 # Evaluation and Submission
 ## Evaluation

@@ -1,72 +1,63 @@
-# Project 1: Model Evaluation and Validation
-## Predicting Boston Housing Prices
+# Content: Model Evaluation and Validation
+## Project: Predicting Boston Housing Prices
 
-## Project Description
+## Project Overview
+In this project, you will apply basic machine learning concepts on data collected for housing prices in the Boston, Massachusetts area to predict the selling price of a new home. You will first explore the data to obtain important features and descriptive statistics about the dataset. Next, you will properly split the data into testing and training subsets, and determine a suitable performance metric for this problem. You will then analyze performance graphs for a learning algorithm with varying parameters and training set sizes. This will enable you to pick the optimal model that best generalizes for unseen data. Finally, you will test this optimal model on a new sample and compare the predicted selling price to your statistics.
 
-The Boston housing market is highly competitive, and you want to be the best real estate agent in the area. To compete with your peers, you decide to leverage a few basic machine learning concepts to assist you and a client with finding the best selling price for their home. Luckily, you've come across the Boston Housing dataset which contains aggregated data on various features for houses in Greater Boston communities, including the median value of homes for each of those areas. Your task is to build an optimal model based on a statistical analysis with the tools available. This model will then used to estimate the best selling price for your client's home.
-				
-For this assignment, download the [machine learning projects](https://github.com/udacity/machine-learning) repo and navigate to the `boston_housing.ipynb` file in the *projects/boston_housing* folder. While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. You can find the included questions for reference below. Unless requested, do not modify code that has already been included.
+## Project Highlights
+This project is designed to get you acquainted to working with datasets in Python and applying basic machine learning techniques using NumPy and Scikit-Learn. Before being expected to use many of the available algorithms in the sklearn library, it will be helpful to first practice analyzing and interpreting the performance of your model.
+
+Things you will learn by completing this project:
+
+- How to use NumPy to investigate the latent features of a dataset.
+- How to analyze various learning performance plots for variance and bias.
+- How to determine the best-guess model for predictions from unseen data.
+- How to evaluate a model's performance on unseen data using previous data.
+
+## Description
+The Boston housing market is highly competitive, and you want to be the best real estate agent in the area. To compete with your peers, you decide to leverage a few basic machine learning concepts to assist you and a client with finding the best selling price for their home. Luckily, you\'ve come across the Boston Housing dataset which contains aggregated data on various features for houses in Greater Boston communities, including the median value of homes for each of those areas. Your task is to build an optimal model based on a statistical analysis with the tools available. This model will then be used to estimate the best selling price for your clients\' homes.
 
 ## Software and Libraries
-For this project, you will need to have the following software and Python libraries installed:
+This project uses the following software and Python libraries:
 
-- Python 2.7
-- NumPy
-- scikit-learn
-- iPython Notebook
+- [Python 2.7](https://www.python.org/download/releases/2.7/)
+- [NumPy](http://www.numpy.org/)
+- [pandas](http://pandas.pydata.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)
+- [matplotlib](http://matplotlib.org/)
 
-## Deliverables
-The following files should be included as your submission, and can be packaged as a single zip file for convenience:
-- The `boston_housing.ipynb` file with fully implemented, functional code, with all code blocks executed and showing output.
-- An HTML or PDF report of the project (you may either export the notebook as HTML with your answers included, or submit a separate PDF with only the questions and your answers).
+You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html).
 
-## Project Report Questions
-A description of the Boston Housing dataset can be found [here](https://archive.ics.uci.edu/ml/datasets/Housing). Use this slide as reference to the project questions you will encounter in the notebook. These questions (and your answers) must be present in your submitted report.
+If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
 
-### Data Exploration
-*This question is integrated into the project notebook output.*  
-Using the NumPy library, calculate a few meaningful statistics about the dataset:
+## Starting the Project
 
-- How many data points (houses) were collected?
-- How many features are present for each house?
-- What is the minimum housing price? The maximum?
-- What is the mean housing price? The median?
-- What is the standard deviation of all housing prices?
+For this assignment, you can find the `boston_housing` folder containing the necessary project files on the [Machine Learning projects GitHub](https://github.com/udacity/machine-learning), under the `projects` folder. You may download all of the files for projects we'll use in this Nanodegree program directly from this repo. Please make sure that you use the most recent version of project files when completing a project!
 
-1) Using your intuition, for each of the three features present in the dataset, do you think that an increase in the value of that feature would lead to an increase in the value of `'MDEV'` or a decrease in the value of `'MDEV'`? Justify your answer for each. 
+This project contains three files:
 
-### Developing a Model
+- `boston_housing.ipynb`: This is the main file where you will be performing your work on the project.
+- `housing.csv`: The project dataset. You'll load this data in the notebook.
+- `visuals.py`: This Python script provides supplementary visualizations for the project. Do not modify.
 
-2) For the hypothetical model presented in the project, would you consider this model to have successfully captured the variation of the target variable? Why or why not?
+In the Terminal or Command Prompt, navigate to the folder containing the project files, and then use the command `jupyter notebook boston_housing.ipynb` to open up a browser window or tab to work with your notebook. Alternatively, you can use the command `jupyter notebook` or `ipython notebook` and navigate to the notebook file in the browser window that opens. Follow the instructions in the notebook and answer each question presented to successfully complete the project. A **README** file has also been provided with the project files which may contain additional necessary information or instruction for the project. 
 
-3) What is the benefit to splitting a dataset into some ratio of training and testing subsets for a learning algorithm?
+## Submitting the Project
 
-### Analyzing Model Performance
+### Evaluation
+Your project will be reviewed by a Udacity reviewer against the **<a href="https://review.udacity.com/#!/rubrics/103/view" target="_blank">Predicting Boston Housing Prices project rubric</a>**. Be sure to review this rubric thoroughly and self-evaluate your project before submission. All criteria found in the rubric must be *meeting specifications* for you to pass.
 
-4) Choose one of the learning curves graphs presented in the project and state the maximum depth for the model. What happens to the score of the training curve as more training points are added? What about the testing curve? Would having more training points benefit the model?
+### Submission Files
+When you are ready to submit your project, collect the following files and compress them into a single archive for upload. Alternatively, you may supply the following files on your GitHub Repo in a folder named `boston_housing` for ease of access:
+ - The `boston_housing.ipynb` notebook file with all questions answered and all code cells executed and displaying output.
+ - An **HTML** export of the project notebook with the name **report.html**. This file *must* be present for your project to be evaluated.
 
-5) When the model is trained with a maximum depth of 1, does the model suffer from high bias or from high variance? How about when the model is trained with a maximum depth of 10? What visual cues in the graph justify your conclusions?
+Once you have collected these files and reviewed the project rubric, proceed to the project submission page.
 
-6) Which maximum depth do you think results in a model that best generalizes to unseen data? What intuition lead you do this answer?
-
-### Evaluating Model Performance
-7) What is the grid search technique and how can it be applied to optimize a learning algorithm?
-
-8) What is the k-fold cross-validation training technique and how is it performed on a learning algorithm?
-
-9) What maximum depth does the optimal model that you have implemented have? How does this result compare to your guess in Question 6?
-
-10) What price would you recommend each client sell his/her home at, given the data presented in the project? Do these prices seem reasonable given the values for the respective features?
-
-11) In a few sentences, discuss whether the constructed model should or should not be used in a real-world setting.
-
-## Evaluation
-Your project will be reviewed by a Udacity reviewer against **<a href="https://review.udacity.com/#!/projects/5415419142/rubric" target="_blank"> this rubric</a>**. Be sure to review it thoroughly before you submit. All criteria must "meet specifications" in order to pass.
-
-## Submission
-When you're ready to submit your project go back to your <a href="https://www.udacity.com/me" target="_blank">Udacity Home</a>, click on Project 1, and we'll walk you through the rest of the submission process.
+### I'm Ready!
+When you're ready to submit your project, click on the **Submit Project** button at the bottom of the page.
 
 If you are having any problems submitting your project or wish to check on the status of your submission, please email us at **machine-support@udacity.com** or visit us in the <a href="http://discussions.udacity.com" target="_blank">discussion forums</a>.
 
-## What's Next?
+### What's Next?
 You will get an email as soon as your reviewer has feedback for you. In the meantime, review your next project and feel free to get started on it or the courses supporting it!

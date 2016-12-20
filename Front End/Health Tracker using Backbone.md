@@ -21,12 +21,16 @@ It's important that web developers have experience with multiple organizational 
 
 # Project Details
 ## How will I complete this Project?
+Review the Health Tracker [Project Rubric](https://review.udacity.com/#!/projects/5030258562/rubric).
+
 1. Review our <a href="https://www.udacity.com/course/ud990-nd" target="_blank">Backbone course</a>.
 2. Write code required to get a project started
 3. Write code required to add a search bar to the application
 4. Write code required to query a health API when the user searches, and return the results in a list (<a href="https://developer.nutritionix.com/docs/v1_1" target="_blank">Nutritionix has a good one</a>)
 5. Write code required to add an item to the data store when clicked
 6. Write code required to show the items in the data store, and to display the total number of calories
+7. Asynchronous Data Usage and Error Handling. All data APIs used in the project should load asynchronously and all errors should be handled gracefully.  In case of error (e.g. in a situation where a third party api does not return the expected result) we expect your webpage to do one of the following:  A message is displayed notifying the user that the data can't be loaded, **OR** There are no negative repercussions to the UI. **Note:** Please note that we expect students to handle errors if the browser has trouble initially reaching the 3rd-party site as well. For example, imagine a user is using your Health Tracker, but her firewall prevents her from accessing the nutrition servers. Here is a reference article on [how to block websites](http://www.digitaltrends.com/computing/how-to-block-a-website/) with the hosts file. It is important to handle errors to give users a consistent and good experience with the webpage. Read [this blogpost](http://ruben.verborgh.org/blog/2012/12/31/asynchronous-error-handling-in-javascript/) to learn more .Some JavaScript libraries  provide special methods to handle errors. For example: refer to .fail() method discussed [here](http://api.jquery.com/jquery.ajax/#jqXHR) if you use jQuery's ajax() method. We strongly encourage you to explore ways to handle errors in the library you are using to make API calls.
+
 
 If you use Firebase and run into issues, check out the Potential Issues section below.
 

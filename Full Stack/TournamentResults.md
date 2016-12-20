@@ -24,7 +24,7 @@ In addition to the previous functionality, the new tests should catch:
 
 The rubric specifies that the code "makes use of query parameters appropriately to protect against SQL injection attacks."
 This means that students should use the `execute` method, not string concatenation or interpolation to assemble their queries.
-Refer to the [psychopg docs](http://initd.org/psycopg/docs/usage.html#the-problem-with-the-query-parameters) for why.
+Refer to the [psycopg docs](http://initd.org/psycopg/docs/usage.html#the-problem-with-the-query-parameters) for why.
 
 It should be noted that simply using the 'execute' method does not prevent risk of SQL injection attacks, if the student is still using
 string concatenation or interpolation to build their queries before passing them into 'execute' method.

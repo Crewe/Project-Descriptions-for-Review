@@ -5,7 +5,7 @@ The goal is to create an News feed app which gives a user regularly-updated news
 
 If you are subscribed to the paid Nanodegree program, coaches will be available in the Coaches Lounge to help guide you through the final project. You will receive feedback after submitting your project and a verified certificate after successfully finishing this project.
 
-If you are enrolled in the free version of this course, the project rubric and all of the project details are available to you.
+If you are enrolled in the free version of this course, the [project rubric](https://review.udacity.com/#!/rubrics/165/view) and all of the project details are available to you.
 
 Either way, we would love to see a description and link to your app on the discussion forum.
 # Why this project?

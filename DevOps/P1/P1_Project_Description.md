@@ -16,7 +16,7 @@ Our fictional companies are evaluating their cloud computing strategies. Each co
 
 Both parts of the project need to be successfully completed for the project to be considered complete.
 
-For the analytical portion of this project you are encouraged, but not required, to use the same company that you picked for you P0 submission. As with that project, the scenarios may need to be augmented with details from your own experience, research, and imagination.
+For the analytical portion of this project you are encouraged, but not required, to use the same company that you picked for your P0 submission. As with that project, the scenarios may need to be augmented with details from your own experience, research, and imagination.
 
 ## Analytical Section Description and Requirements
 

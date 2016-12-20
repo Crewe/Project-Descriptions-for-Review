@@ -66,7 +66,7 @@ For detailed information on how your project will be assessed, see the Rubric no
 
 ## Project Rubric
 
-Your project will be evaluated by a Udacity Code Reviewer according to <a href="https://docs.google.com/document/d/1JGO1pG6j0qR3x3knIDU75Y503zl6MHUG_A-zZZXVDNo/pub" target="_blank">this rubric</a>. 
+Your project will be evaluated by a Udacity Code Reviewer according to <a href="https://review.udacity.com/#!/projects/4302058591/rubric" target="_blank">this rubric</a>. 
 
 Be sure to review it thoroughly before you submit. All criteria must "meet specifications" in order to pass. 
 
